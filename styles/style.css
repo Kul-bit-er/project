@@ -1,0 +1,55 @@
+header{
+    background-image: none;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    list-style-type: none;
+}
+.menu li{
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+}
+.information-btn{
+    display: flex;
+    flex-direction: row;
+}
+.shop-now-btn{
+    display: flex;
+    width: 200px;
+    height: 70px;
+    background-color: #933C24;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.shop-now-btn p{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+}
+.learn-more-btn{
+    display: flex;
+    margin-left: 20px;
+    width: 200px;
+    height: 70px;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.learn-more-btn p{
+    color: #E9BD8C;
+    font-weight: 300;
+    font-size: 30px;
+}
