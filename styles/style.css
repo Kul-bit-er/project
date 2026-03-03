@@ -1,54 +1,103 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
 header{
-    background-image: none;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/background_block_1_site_face.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1080px;
 }
 .header-menu{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    margin-left: 68px;
+    margin-top: 46px;
+}
+.header-menu > a{
+    margin: 0;
+    padding: 0;
+}
+.header-menu > a > img{
+    display: block;
+    width: 127px;
+    height: 139px;
 }
 .menu{
     display: flex;
     flex-direction: row;
-}
-.menu{
     list-style-type: none;
+    margin-left: 155px;
+}
+.menu ul{
+    display: flex;
+    flex-direction: row;
 }
 .menu li{
-    margin-left: 30px;
+    margin-left: 50px;
 }
 .menu a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
+}
+.menu p{
+    font-family: 'PoppinsSemiBold';
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+.slogan{
+    margin-top: 150px;
+}
+.slogan > h4{
+    color: #E9BD8C;
+    font-size: 32px;
+    font-family: 'InterSemiBold';
+    margin-left: 83px;
+    margin-bottom: 0px;
+}
+.slogan > h1{
+    color: white;
+    font-size: 94px;
+    font-family: 'SansitaSwashed';
+    margin-left: 80px;
+    margin-top: 0px;
+    font-weight: 400;
 }
 .information-btn{
     display: flex;
     flex-direction: row;
+    margin-left: 80px;
+    margin-top: 40px;
+    font-family: 'InterSemiBold';
 }
 .shop-now-btn{
     display: flex;
-    width: 200px;
-    height: 70px;
+    width: 250px;
+    height: 80px;
     background-color: #933C24;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-}
-.shop-now-btn p{
     color: white;
     font-weight: 300;
     font-size: 30px;
 }
 .learn-more-btn{
     display: flex;
-    margin-left: 20px;
-    width: 200px;
-    height: 70px;
+    margin-left: 10px;
+    width: 250px;
+    height: 80px;
     background: none;
     border: none;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
-}
-.learn-more-btn p{
     color: #E9BD8C;
     font-weight: 300;
     font-size: 30px;
