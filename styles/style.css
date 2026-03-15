@@ -2,22 +2,27 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
-    padding: 0;
+    align-items: center;
+    min-width: 1280px;
+    height: auto;
 }
+
+/*шапка сайта*/
 header{
     display: flex;
     flex-direction: column;
     background-image: url('../images/background_block_1_site_face.jpg');
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    height: 1080px;
+    background-size: 1280px 813px;
+    min-width: 1280px;
+    min-height: 813px;
 }
 .header-menu{
     display: flex;
     flex-direction: row;
     align-items: center;
     margin-left: 68px;
-    margin-top: 46px;
+    margin-top: 11px;
 }
 .header-menu > a{
     margin: 0;
@@ -25,29 +30,33 @@ header{
 }
 .header-menu > a > img{
     display: block;
-    width: 127px;
-    height: 139px;
+    width: 87px;
+    height: 99px;
 }
 .menu{
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    margin-left: 155px;
+    margin-left: 60px;
 }
 .menu ul{
     display: flex;
     flex-direction: row;
 }
 .menu li{
-    margin-left: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .menu a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+.menu .home-link{
+    color: #E9BD8C;
+}
 .menu p{
     font-family: 'PoppinsSemiBold';
-    font-size: 30px;
+    font-size: 22px;
     padding: 0;
     margin: 0;
 }
@@ -56,14 +65,14 @@ header{
 }
 .slogan > h4{
     color: #E9BD8C;
-    font-size: 32px;
+    font-size: 24px;
     font-family: 'InterSemiBold';
     margin-left: 83px;
     margin-bottom: 0px;
 }
 .slogan > h1{
     color: white;
-    font-size: 94px;
+    font-size: 74px;
     font-family: 'SansitaSwashed';
     margin-left: 80px;
     margin-top: 0px;
@@ -78,27 +87,28 @@ header{
 }
 .shop-now-btn{
     display: flex;
-    width: 250px;
-    height: 80px;
+    width: 194px;
+    height: 65px;
     background-color: #933C24;
     border-radius: 8px;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: 300;
-    font-size: 30px;
+    font-size:24px;
 }
 .learn-more-btn{
     display: flex;
-    margin-left: 10px;
-    width: 250px;
-    height: 80px;
+    margin-left: 15px;
+    
+    width: 194px;
+    height: 65px;
     background: none;
     border: none;
     border-radius: 8px;
-    justify-content: center;
+    
     align-items: center;
     color: #E9BD8C;
-    font-weight: 300;
-    font-size: 30px;
+    font-weight: 400;
+    font-size: 24px;
 }
