@@ -1,49 +1,50 @@
+
 @font-face{
-    font-family: 'InterBold';
+    font-family: 'Inter';
     src: url("../fonts/Inter-Bold.otf");
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'InterSemiBold';
+    font-family: 'Inter';
     src: url("../fonts/Inter-SemiBold.otf");
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'InterMedium';
+    font-family: 'Inter';
     src: url("../fonts/Inter-Medium.otf");
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'PoppinsRegular';
+    font-family: 'Poppins';
     src: url("../fonts/Poppins-Regular.ttf");
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'PoppinsMedium';
+    font-family: 'Poppins';
     src: url("../fonts/Poppins-Medium.ttf");
-    font-weight: normal;
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'PoppinsSemiBold';
+    font-family: 'Poppins';
     src: url("../fonts/Poppins-SemiBold.ttf");
-    font-weight: normal;
+    font-weight: 600;
     font-style: normal;
     font-display: swap;
 }
 @font-face{
-    font-family: 'SansitaSwashed';
+    font-family: 'Sansita';
     src: url("../fonts/SansitaSwashed.ttf");
     font-weight: normal;
-    font-style: normal;
+    font-style: oblique;
     font-display: swap;
 }
