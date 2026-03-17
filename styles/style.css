@@ -22,13 +22,13 @@ header{
     flex-direction: row;
     align-items: center;
     margin-left: 68px;
-    margin-top: 11px;
+    margin-top: 19px;
 }
 .header-menu > a{
     margin: 0;
     padding: 0;
 }
-.header-menu > a > img{
+.header-logotype{
     display: block;
     width: 87px;
     height: 99px;
@@ -50,31 +50,33 @@ header{
 .menu a{
     text-decoration: none;
     color: rgb(255, 255, 255);
+    font-family: 'Poppins',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    line-height: 1.5px;
 }
 .menu .home-link{
     color: #E9BD8C;
 }
-.menu p{
-    font-family: 'PoppinsSemiBold';
-    font-size: 22px;
-    padding: 0;
-    margin: 0;
-}
 .slogan{
     margin-top: 150px;
+    margin-left: 80px;
 }
-.slogan > h4{
+.slogan-name{
     color: #E9BD8C;
     font-size: 24px;
-    font-family: 'InterSemiBold';
-    margin-left: 83px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-style: normal;
     margin-bottom: 0px;
 }
 .slogan > h1{
     color: white;
     font-size: 74px;
-    font-family: 'SansitaSwashed';
-    margin-left: 80px;
+    font-family: 'Sansita', sans-serif;
+    font-style: oblique;
     margin-top: 0px;
     font-weight: 400;
 }
@@ -83,7 +85,8 @@ header{
     flex-direction: row;
     margin-left: 80px;
     margin-top: 40px;
-    font-family: 'InterSemiBold';
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
 }
 .shop-now-btn{
     display: flex;
