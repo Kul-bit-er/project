@@ -35,12 +35,12 @@ header{
 .menu{
     display: flex;
     flex-direction: row;
-    list-style-type: none;
     margin-left: 60px;
 }
 .menu ul{
     display: flex;
     flex-direction: row;
+    list-style-type: none;
 }
 .menu li{
     margin-left: 15px;
