@@ -21,7 +21,6 @@ header{
     background-repeat: no-repeat;
     background-size: 1280px 813px;
 
-    min-width: 1280px;
     min-height: 813px;
 }
 .header-menu{
@@ -499,23 +498,17 @@ footer{
     background-repeat: no-repeat;
     background-size: 1280px 633px;
 
-    min-width: 1280px;
-    min-height: 633px;
 }
 .icons_and_logotype{
     display: flex;
     flex-direction: row;
 
-    margin: auto;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 
-    width: 1280px;
-    height: 173px;
+    min-height: 173px;
 }
 .icons_and_logotype p{
-    align-content: center;
-   
     color: #E9BD8D;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
@@ -540,7 +533,7 @@ footer{
     flex-direction: row;
     
     margin-left: 20px;
-    justify-content: space-between;
+    
 }
 .footer-imgs img{
     margin-left: 10px;
@@ -553,7 +546,7 @@ footer{
     display: flex;
     
     margin: auto;
-    border-top: 0.1px solid #E9BD8D;
+    border-top: 2px solid rgba(233,189,141, 0.2);
 
     width: 1117px;
 }
@@ -654,7 +647,6 @@ footer{
     font-weight: 500;
     font-size: 18px;
     line-height: normal;
-    
 }
 .author-rights{
     display: flex;
