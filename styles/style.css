@@ -174,19 +174,21 @@ section h2{
     padding: 0;
     justify-content: center;
 }
+
 .product-menu{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .pie{
-    display: flex;
-    flex-direction: column;
-    
-    list-style-type: none;
+    display: grid;
 
-    margin: 0px 10px 20px 10px;
-    padding: 0;
+    position: relative;
+
+    list-style-type: none;
+    grid-template-rows: 55% 45%;
     align-items: center;
     justify-content: center;
     
@@ -197,23 +199,39 @@ section h2{
     background-size: cover;
 
     min-width: 360px;
-    min-height: 411px;
+    max-height: 411px;
 }
 .photo{
-    display: flex;
+    display: grid;
 
-    padding-top: 15px;
+    padding-top: 21px;
     justify-content: center;
+    align-items: center;
    
     min-height: 228px;
 }
-.price-and-information{
-    display: flex;
-    flex-direction: row;
+.pie-card{
+    display: grid;
     
+    grid-template-columns: 1fr 1fr;
+    margin-left: 0;
+
+    min-width: 360px;
+}
+.price-and-name{
+    display: grid;
+    
+    margin-left: 29px;
+    justify-self: start;
     align-items: center;
 
     color: #FFFFFF;
+}
+.price-and-name p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
 }
 .price{
     font-family: 'Inter', sans-serif;
@@ -222,10 +240,9 @@ section h2{
     line-height: normal;
 }
 .information-of-product{
-    display: flex;
+    display: grid;
 
     margin-top: 0;
-    margin-left: 170px;
     justify-content: center;
     align-items: center;
 
@@ -241,10 +258,12 @@ section h2{
     border: 1px solid #FFFFFF;
     background-color: none;
 }
-.product-name{
-    display: flex;
-    flex-direction: row;
+.information-and-add{
+    display: grid;
 
+    margin-right: 29px;
+    justify-self: end;
+    justify-items: center;
     align-items: center;
 
     color: #FFFFFF;
@@ -253,8 +272,8 @@ section h2{
     font-size: 24px;
     line-height: normal;
 }
-.product-name button{
-    margin-left: 80px;
+.information-and-add button{
+    
     padding: 15.5px 12px;
     
     cursor: pointer;
@@ -497,14 +516,14 @@ footer{
     background-image: url('../images/background_block_4_footer.jpg');
     background-repeat: no-repeat;
     background-size: 1280px 633px;
-
 }
 .icons_and_logotype{
     display: flex;
     flex-direction: row;
 
-    justify-content: space-around;
+    padding: 0px 80px 0px 80px;
     align-items: center;
+    justify-content: space-between;
 
     min-height: 173px;
 }
@@ -518,14 +537,15 @@ footer{
 }
 .img-footer-logo{
     display: flex;
-
+    
     width: 114px;
     height: 116px;
 }
 .icons{
     display: flex;
     flex-direction: row;
-
+    
+    padding-right: 120px;
     align-items: center;
 }
 .footer-imgs{
@@ -554,13 +574,14 @@ footer{
     display: flex;
     flex-direction: column;
 
-    height: 460px;
+    padding: 0px 80px 0px 80px;
+
 }
 .information{
     display: flex;
     flex-direction: row;
 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .about-us,
 .explore,
