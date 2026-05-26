@@ -17,6 +17,7 @@ body{
     color: rgb(0, 224, 67);
 }
 
+
 /*Шапка сайта*/
 header{
     display: flex;
@@ -63,16 +64,99 @@ header{
     margin-right: 0.7083rem;
     transition: transform 0.5s ease;
 }
+.contact-us,
 .menu a{
     margin: 0;
     padding: 0;
-    
+
+    background: none;
+    border: none;
+
     text-decoration: none;
     color: #FFFFFF;
     font-family: 'Poppins',sans-serif;
     font-weight: 600;
     font-size: 0.9167rem;
     line-height: normal;
+}
+.applications {
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    background-color:#e9be8c86;
+}
+.application{
+    display: flex; 
+    flex-direction: column;
+
+    position: fixed; 
+    padding: 20px;
+    justify-content: center; 
+    align-items: center; 
+    top: 50%; 
+    left: 50%;
+    
+    border-radius: 0.3333rem;
+
+    width: 360px;
+
+    color: #fff; 
+    background-color: #292929;
+    background-image: url('../images/background_block_4_footer.jpg');
+    
+    transform: translate(-50%, -50%);
+}
+.application-title{
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: normal;
+    text-align: center;
+}
+.application-text{
+    border: 2px solid #933C24;
+    border-radius: 10px;
+    margin: 20px 0px 10px 0px;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    color: #000000; 
+}
+.application-form{
+    display: flex; 
+    flex-direction: column;
+   
+    width: 300px; 
+}
+.application-form button{
+    margin-top: 40px;
+    padding: 23px 35px;
+ 
+    border: none;
+    border-radius: 10px;
+    background-color: #933C24;
+    
+    cursor: pointer;
+
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: normal;
+
+    transition: transform 0.5s ease;
+}
+.application-form button:hover{
+    background-color: #E9BD8C;
+    color: #000000;
+    transform: scale(1.1);
+}
+.application-form button:active{
+    color: #ffffff;
 }
 .menu .home-link{
     color: #E9BD8C;
@@ -818,8 +902,20 @@ footer{
         padding: 0rem;
         text-align: center;
     }
+    .contact-us,
     .menu a{
         font-size: 1.4rem;
+    }
+    .applications {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+    
+        background-color:#e9be8c86;
+    }
+    .application{
+        top: 25%; 
+        left: 27%;
     }
     .menu li{
         margin-top:  0.5rem;
@@ -911,7 +1007,6 @@ footer{
     }
     .gallery li img{
         width: 100%;
-        
     }
     .second-banner-about-us{
         background-size: cover;
@@ -928,6 +1023,14 @@ footer{
         padding: 15px 25px;
         font-size: 1rem;
     }
+    .desserts-menu ul{
+        flex-direction: column;
+    }
+    .desserts-menu li{
+        padding: 5px 0px;
+        margin: 7px 15px;
+        font-size: 1.2rem;
+    }
     .product-section_3 ul{
         min-width: auto;
         flex-direction: column;
@@ -937,7 +1040,6 @@ footer{
     }
     .product-section_3 li{
         font-size: 1.2rem;
-
     }
     
 
