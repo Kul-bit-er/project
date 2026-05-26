@@ -23,3 +23,5 @@ window.addEventListener("click", function(event) {
 closeModalButton.addEventListener("click", function(event)  {
     modalApplication.setAttribute("hidden", true);
 });
+
+    
